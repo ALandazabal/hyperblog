@@ -31,3 +31,17 @@ checkout: Para traer los cambios hechos del archivo
 rm --catched: se puede eliminar o vaciar el contenido de la memory
 
 git diff: Muestra la diferencia de los cambios de un archivo
+
+git reset: Para volver a un commit anterior
+Si usamos --hard, volvemos en el tiempo pero borramos los cambios que se hicieron después del commit (en el área de staging) para siempre.
+Si usamos --soft, se mantienen allí los archivos del staging para que podamos aplicar nuestros últimos cambios pero desde un commit anterior
+
+fetch: trae la data al repositorio local pero no lo copia a los archivos
+
+merge: une los archivos del remoto y del local
+
+pull:  realiza los 2 últimos comandos a la vez
+
+Las ramas son extensiones del master donde se pueden hacer cambios sin afectar la rama principal.
+
+git branch: Crea una nueva rama
